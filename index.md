@@ -142,68 +142,11 @@ Baseline scores on Dev data will be avaiable by June 2024.
 Test Sets will be available by July 2024.
 
 ### Submission Format
-
- Submissions will be done by sending us an email to <a href="mailto:wmt.chat.task@gmail.com"> our official email</a>.
-
- Each team can submit at most 3 MT outputs per language pair direction, one `primary` and up to two `contrastive`. The submitting team is required to explicitly indicate which of these submissions represents their primary submission. 
- In the case that the participating team sends several submissions (in different emails) only the **latest submission** received will be used as their official submission.
-
-The submission file names should be set according to the follwong template: `<Team-Name>_<SourceLanguage>-<TargetLanguage>_<SubmissionType>.csv`
-<br /><br />
-
-The `<SubmissionType>` can be one of the followings: `Primary`, `Contrastive1`, and `Contrastive2`.
+...
 <br />
-
- We released a [converter](https://github.com/WMT-Chat-task/data-and-baselines/blob/main/prepare-submission.py) along with test sets that converts the outputs of the MT systems (in the text format) into the CSV format. Participants are encouraged to translate both directions (i.e. agent and customer) but can choose to only submit translations to one direction. For more details on the converter script (the file formats, directions, etc) check the README.md file provided in our github [repository](https://github.com/WMT-Chat-task/data-and-baselines).
-
-**Note 1:** Translations should be “human-ready”, i.e. in the form that text is normally published, so latin-script languages should be recased and detokenised.
-
-**Note 2:** Each participating team is asked to send a short paragraph briefly describing their approach, along with their submissions.
 
 ## Evaluation
-Similarly to the previous edition, the Systems' performance will be evaluated both automatically and manualy.
-But, this year we will use [COMET](https://unbabel.github.io/COMET/html/index.html) as the automatic metric and MQM for the human evaluation. <br />
-The manual document-level evaluation will be performed only on the primary submission and will be used for the official rankings of the participating teams accounting for both directions.
-The COMET scores will be used as the secondary metric.
-
-## Automatic evaluation (results)
-
-We used [COMET](https://unbabel.github.io/COMET/html/index.html) and [chrF](https://aclanthology.org/W15-3049/) for the automatica evaluation. Below are presented the results:
-
-**EN⇔DE:**
-
-|                          | en-de |       | de-en |       |
-|--------------------------|-------|-------|-------|-------|
-|                          | COMET | chrF  | COMET | chrF  |
-| Baseline without context | 0.403 | 0.550 | 0.588 | 0.621 |
-| Baseline with context    | 0.376 | 0.537 | 0.680 | 0.642 |
-| BJTU-WeChat              | 0.810 | 0.735 | 0.946 | 0.775 |
-| Unbabel                  | 0.774 | 0.733 | 0.915 | 0.737 |
-| IITP-Flipkart            | 0.768 | 0.730 | 0.907 | 0.729 |
-| Huawei                   | 0.704 | 0.725 | 0.918 | 0.766 |
-
-<br />
-
-**EN⇔FR:**
-
-|                          | en-fr |       | fr-en |       |
-|--------------------------|-------|-------|-------|-------|
-|                          | COMET | chrF  | COMET | chrF  |
-| Baseline without context | 0.644 | 0.640 | 0.574 | 0.587 |
-| Baseline with context    | 0.664 | 0.631 | 0.601 | 0.602 |
-| Unbabel                  | 1.086 | 0.838 | 0.838 | 0.677 |
-
-<br />
-
-**EN⇔PT-BR:**
-
-|                          | en-pt_br |       | pt_br-en |       |
-|--------------------------|----------|-------|----------|-------|
-|                          | COMET    | chrF  | COMET    | chrF  |
-| Baseline without context | 0.824    | 0.681 | 0.61     | 0.631 |
-| Baseline with context    | 0.863    | 0.675 | 0.675    | 0.653 |
-| Unbabel                  | 1.078    | 0.771 | 0.849    | 0.689 |
-
+...
 <br />
 
 ## Paper Describing Your MT Systems
@@ -212,14 +155,13 @@ Please note that the shared task submission description papers are non-archival,
 
 ## Organization:
 
+- Wafaa Mohammed, UvA
 - Ana C. Farinha, Unbabel
 - M. Amin Farajian, Unbabel
-- Patrick Fernandes, Google and CMU and Instituto Superior Técnico
 - José Souza, Unbabel
-- João Alves, Unbabel
-- António Lopes, Unbabel
-- Helena Moniz, INESC-ID and Unbabel 
-- André Martins, Unbabel and Instituto Superior Técnico
+- Sweta Agrawal, Unbabel
+- Vera Cabarrão, Unbabel
+- Bryan Eikema, UvA
 
 ## Sponsors
 
@@ -231,6 +173,12 @@ Please note that the shared task submission description papers are non-archival,
 	
 </style>
 <div style="position: relative; width: 700px; height: 100px; min-height: 200px">    
+    <div style="position: relative; bottom: 0px;">
+	   <div class="column">
+	     <img src="/public/css/unbabel.png" height=100px width=auto>
+	   </div>
+	</div>
+ <div style="position: relative; width: 700px; height: 100px; min-height: 200px">    
     <div style="position: relative; bottom: 0px;">
 	   <div class="column">
 	     <img src="/public/css/unbabel.png" height=100px width=auto>
