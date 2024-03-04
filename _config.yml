@@ -6,7 +6,7 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            WMT22 Chat Task
+title:            WMT24 Chat Task
 #tagline:          'A Jekyll theme'
 description:      'This shared task will examine machine translation in the Chat domain.'
 #url:              http://hyde.getpoole.com
