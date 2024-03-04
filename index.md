@@ -5,36 +5,17 @@
 layout: home
 ---
 
-# Welcome to the WMT 2022 Chat Shared Task!
+# Welcome to the WMT 2024 Chat Shared Task!
 
 ## Updates
-### October 16th, 2022
-``❗`` The test sets with the gold references are now available [here](https://github.com/WMT-Chat-task/data-and-baselines/tree/main/data/testsets).
 
-### September 6th, 2022
-``❗`` The results of the automatic evaluations are published. You can check them in the **Automatic evaluation (results)** section.
+### March ..th, 2024
 
-### July 28th, 2022
-``❗`` The test sets are now available [here](https://github.com/WMT-Chat-task/data-and-baselines/tree/main/data/testsets).
-Please check the updated details of the submission information in the **Submission format** section.
-
-### July 22nd, 2022
-``❗`` The evaluation week was <span style="color:red">**postponed by 1 week**</span>: it will now happen between **28th July - 6th August**. Test sets will be available for download on the 28th of July. 
-
-``❗`` More updated information can be found in the **Submission format** section.
-
-### July 7th, 2022
-
-``❗`` Baselines scores on devsets are now available in the section **Baseline Scores on DevSets** below and scripts to reproduce them can be found [here](https://github.com/WMT-Chat-task/data-and-baselines). 
-
-
-### June 30th, 2022
+``❗`` Training data is available at []().
 
 ``❗`` Please also register to the chat-shared-task [google-group](https://groups.google.com/g/wmt-chat-task) in order to be able to receive immediate updates announcements and ask us questions! 
 
 ``❗`` Baselines' scores on devsets will be available soon! 
-
-``❗`` List of additional permited training data are updated in the Datasets section.
 
 <br />
 
@@ -57,7 +38,7 @@ Machine translation systems trained for chat conversations are expected to deal 
 
 The primary goal of this Chat shared task is to encourage participants to train and test models specific for bilingual chat conversations in a corpus composed of original bilingual costumer support conversations.
 
-This year we expanded the language pairs to en⇔de, en⇔fr, and en⇔pt_br.
+This year we expanded the language pairs to en⇔de, en⇔fr, en⇔pt_br, en⇔ko and en⇔nl.
 
 We encourage participants to use the **bilingual context** in the translation models submissions.<br />
 
@@ -72,13 +53,14 @@ table {
 
 |  | Date |
 | ----------- | :-----------: |
-| Validation set ready to download | ~~15th~~ 22nd June |
-| Test set ready to download | ~~23rd~~ 28th July, 2022 |
-| Submission deadline for Chat task | ~~23-28th~~ 28th July - 6th August, 2022 |
-| Paper submission deadline to WMT | 7th September, 2022 |
-| WMT Notification of acceptance | 9th October, 2022 |
-| WMT Camera-ready deadline | 16th October, 2022 |
-| Conference | 7th - 8th December, 2022 |
+| Training set ready to download | March 2024 |
+| Validation set ready to download | June 2024 |
+| Test set ready to download | July 2024 |
+| Submission deadline for Chat task | July 2024 |
+| Paper submission deadline to WMT | TBA around 12th August (follows EMNLP) |
+| WMT Notification of acceptance | TBA (follows EMNLP) |
+| WMT Camera-ready deadline | TBA around 23rd September (follows EMNLP) |
+| Conference | 12-13 November, 2024 |
 
 ## Goals
 
@@ -94,22 +76,17 @@ A critical challenge faced by international companies today is delivering custom
 
 ## Data
 
-The data used in this shared task is part of a unique corpus called MAIA corpus that is composed with genuin bilingual costumer support conversations.
+The data used in this shared task is composed of genuine bilingual costumer support conversations.
 One of the main challenges of this domain is the lack of real bilingual training data available.
-In order to make this shared task as close as possible to the real-world settings, this year, we release only the dev and test sets. So, please note that there will be no training data for this edition and the participants are expected to use only the dev sets (bilingual and monolingual) to train and fine-tune their MT systems.
 
-Please note, that all the data released for the WMT22 Chat Translation task is under the license of [CC-BY-NC-4.0](https://creativecommons.org/licenses/by-nc/4.0)
- and can be freely used for research purposes only. Please note that, as the license states, no commercial uses are permitted for this corpus. We just ask that you cite the WMT22 Chat Translation Task overview paper. Any other use is not permitted unless previous written authorization is given by Unbabel.
 
-### Tracks:
 
-1. **Zero-shot**: In this task participants have to develop machine translation systems without access to any in-domain training data.
-2. **Low-resource**: In this task participants have to develop machine translation systems with access to bilingual conversations without reference translations.
+Please note, that all the data released for the WMT24 Chat Translation task is under the license of [CC-BY-NC-4.0](https://creativecommons.org/licenses/by-nc/4.0)
+ and can be freely used for research purposes only. Please note that, as the license states, no commercial uses are permitted for this corpus. We just ask that you cite the WMT24 Chat Translation Task overview paper. Any other use is not permitted unless previous written authorization is given by Unbabel.
    
-
 ## Datasets
 
-The Dev sets (both bilingual and monolingual) of all the language pairs are available in the [github](https://github.com/chat-task/wmt-chat-task/tree/main/data) repository.
+The Training sets of all the language pairs are available in the [github]() repository.
 The files contain the bilingual conversations by a customer and an agent in their original language.
 Here is an example of such a conversation:
 
@@ -156,38 +133,13 @@ Moreover, since the data is anonymised, we have the entities replaced by the fol
 
 ## Baseline Scores on DevSets
 
-We provide two different baselines: one without any context and another with context (using the two previous iterations for the corresponding direction).
-
-### Baseline without context:
-
-| Direction | Lang  | BLEU  | chrF  | COMET  | TER   |
-|-----------|-------|-------|-------|--------|-------|
-| agent     | de    | 35.24 | 57.17 | 0.4168 | 55.70 |
-| agent     | fr    | 54.14 | 69.47 | 0.7984 | 37.95 |
-| agent     | pt_br | 50.38 | 68.84 | 0.8645 | 40.99 |
-| customer  | de    | 45.98 | 60.81 | 0.5426 | 51.21 |
-| customer  | fr    | 46.51 | 62.29 | 0.6382 | 50.12 |
-| customer  | pt_br | 44.71 | 59.95 | 0.5851 | 53.78 |
-
-### Baseline with context:
-
-| Direction | Lang  | BLEU  | chrF  | COMET  | TER   |
-|-----------|-------|-------|-------|--------|-------|
-| agent     | de    | 33.89 | 55.96 | 0.3811 | 57.30 |
-| agent     | fr    | 53.58 | 68.81 | 0.7978 | 41.50 |
-| agent     | pt_br | 49.94 | 67.95 | 0.9029 | 40.89 |
-| customer  | de    | 47.11 | 62.06 | 0.6163 | 46.94 |
-| customer  | fr    | 48.05 | 63.61 | 0.6834 | 47.78 |
-| customer  | pt_br | 47.24 | 62.31 | 0.6437 | 47.91 |
-
-Scripts to reproduce scores are available [here](https://github.com/WMT-Chat-task/data-and-baselines).
-
+Baseline scores on Dev data will be avaiable by June 2024.
 
 <br />
 
 ## Test Sets (Evaluation Data)
 
-Test Sets will be available on the ~~23rd~~ 28th July of July.
+Test Sets will be available by July 2024.
 
 ### Submission Format
 
@@ -284,5 +236,4 @@ Please note that the shared task submission description papers are non-archival,
 	     <img src="/public/css/unbabel.png" height=100px width=auto>
 	   </div>
 	</div>
-
 
