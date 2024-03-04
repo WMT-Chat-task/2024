@@ -19,7 +19,7 @@ baseurl:          /
 paginate:         5
 
 # Custom vars
-version:          2022
+version:          2024
 
 github:
   repo:           https://github.com/chat-task/wmt-chat-task
