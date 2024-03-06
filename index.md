@@ -146,7 +146,15 @@ Test Sets will be available by July 2024.
 <br />
 
 ## Evaluation
-...
+The Systems' performance will be evaluated along the following domensions:
+
+- Overall Translation Quality via chrF, BLEU, COMET-22 and Contextual-Comet-QE.
+- Accuracy performance on handling context-dependent discourse phenomena.
+- Human evaluation that utilizes the conversational context to rate the translation quality on a direct assessment scale of [0-100].
+
+The human document-level evaluation will be performed only on the primary submission and will be used for the official rankings of the participating teams accounting for both directions.
+The TBD will be used as the secondary metric.
+
 <br />
 
 ## Paper Describing Your MT Systems
