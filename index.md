@@ -159,7 +159,7 @@ Please note that the shared task submission description papers are non-archival,
 - Ana C. Farinha, Unbabel
 - M. Amin Farajian, Unbabel
 - José Souza, Unbabel
-- Sweta Agrawal, Unbabel
+- Sweta Agrawal, Instituto de Telecomunicações
 - Vera Cabarrão, Unbabel
 - Bryan Eikema, UvA
 
@@ -181,7 +181,7 @@ Please note that the shared task submission description papers are non-archival,
  <div style="position: relative; width: 700px; height: 100px; min-height: 200px">    
     <div style="position: relative; bottom: 0px;">
 	   <div class="column">
-	     <img src="/public/css/uva.png" height=100px width=auto>
+	     <img src="/public/css/unbabel.png" height=100px width=auto>
 	   </div>
 	</div>
 
