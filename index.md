@@ -9,13 +9,13 @@ layout: home
 
 ## Updates
 
-### March ..th, 2024
+### March 15th, 2024
 
 ``❗`` Training data is available at []().
 
 ``❗`` Please also register to the chat-shared-task [google-group](https://groups.google.com/g/wmt-chat-task) in order to be able to receive immediate updates announcements and ask us questions! 
 
-``❗`` Baselines' scores on devsets will be available soon! 
+``❗`` Devsets along with baselines scores on them will be available soon! 
 
 <br />
 
@@ -54,8 +54,8 @@ table {
 |  | Date |
 | ----------- | :-----------: |
 | Training set ready to download | March 2024 |
-| Validation set ready to download | June 2024 |
-| Test set ready to download | July 2024 |
+| Validation set ready to download | May 2024 |
+| Test set ready to download | June/July 2024 |
 | Submission deadline for Chat task | July 2024 |
 | Paper submission deadline to WMT | TBA around 12th August (follows EMNLP) |
 | WMT Notification of acceptance | TBA (follows EMNLP) |
@@ -133,22 +133,22 @@ Moreover, since the data is anonymised, we have the entities replaced by the fol
 
 ## Baseline Scores on DevSets
 
-Baseline scores on Dev data will be avaiable by June 2024.
+Baseline scores on Dev data will be avaiable by May 2024.
 
 <br />
 
 ## Test Sets (Evaluation Data)
 
-Test Sets will be available by July 2024.
+Test Sets will be available by June/July 2024.
 
 ### Submission Format
-...
+TBD
 <br />
 
 ## Evaluation
 The Systems' performance will be evaluated along the following domensions:
 
-- Overall Translation Quality via chrF, BLEU, COMET-22 and Contextual-Comet-QE.
+- Overall translation quality via chrF, BLEU, COMET-22 and Contextual-Comet-QE.
 - Accuracy performance on handling context-dependent discourse phenomena.
 - Human evaluation that utilizes the conversational context to rate the translation quality on a direct assessment scale of [0-100].
 
@@ -186,7 +186,7 @@ Please note that the shared task submission description papers are non-archival,
 	     <img src="/public/css/unbabel.png" height=100px width=auto>
 	   </div>
 	</div>
- <div style="position: relative; width: 700px; height: 100px; min-height: 200px">    
+ <div style="position: relative; width: 1000px; height: 100px; min-height: 200px">    
     <div style="position: relative; bottom: 0px;">
 	   <div class="column">
 	     <img src="/public/css/uva_logo.png" height=100px width=auto>
