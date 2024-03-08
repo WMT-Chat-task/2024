@@ -186,10 +186,10 @@ Please note that the shared task submission description papers are non-archival,
 	     <img src="/public/css/unbabel.png" height=100px width=auto>
 	   </div>
 	</div>
- <div style="position: relative; width: 1000px; height: 100px; min-height: 200px">    
+ <div style="position: relative; width: 700px; height: 100px; min-height: 200px">    
     <div style="position: relative; bottom: 0px;">
 	   <div class="column">
-	     <img src="/public/css/uva_logo.png" height=100px width=auto>
+	     <img src="/public/css/uva_logo2.png" height=100px width=auto>
 	   </div>
 	</div>
 
