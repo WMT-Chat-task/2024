@@ -150,8 +150,9 @@ The Systems' performance will be evaluated along two domensions:
 
 1) Human evaluation
    - Human evaluation that utilizes the conversational context to rate the translation quality on a direct assessment scale of [0-100].
+     
 2) Automatic evaluation
-   - Overall translation quality via chrF, BLEU, COMET-22 and Contextual-Comet-QE.
+   - Overall translation quality via [chrF](https://github.com/mjpost/sacrebleu?tab=readme-ov-file#chrf--chrf), [BLEU](https://github.com/mjpost/sacrebleu?tab=readme-ov-file#bleu), [COMET-22](https://github.com/Unbabel/COMET) and Contextual-Comet-QE.
    - Accuracy performance on handling context-dependent discourse phenomena. 
 
 
