@@ -153,7 +153,7 @@ The Systems' performance will be evaluated along two domensions:
      
 2) Automatic evaluation
    - Overall translation quality via [chrF](https://github.com/mjpost/sacrebleu?tab=readme-ov-file#chrf--chrf), [BLEU](https://github.com/mjpost/sacrebleu?tab=readme-ov-file#bleu), [COMET-22](https://github.com/Unbabel/COMET) and Contextual-Comet-QE.
-   - Accuracy performance on handling context-dependent discourse phenomena. 
+   - Accuracy performance on handling context-dependent discourse phenomena: we calculate [F1 scores](https://github.com/CoderPat/MuDA/tree/main) of system's outputs compared to the reference for words tagged with context-dependent phenomena (lexical cohesion, formality, pronoun resolution and verb forms)
 
 
 The human document-level evaluation will be performed only on the primary submission and will be used for the official rankings of the participating teams accounting for both directions.
