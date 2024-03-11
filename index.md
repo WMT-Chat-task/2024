@@ -146,14 +146,17 @@ TBD
 <br />
 
 ## Evaluation
-The Systems' performance will be evaluated along the following domensions:
+The Systems' performance will be evaluated along two domensions:
 
-- Overall translation quality via chrF, BLEU, COMET-22 and Contextual-Comet-QE.
-- Accuracy performance on handling context-dependent discourse phenomena.
-- Human evaluation that utilizes the conversational context to rate the translation quality on a direct assessment scale of [0-100].
+1) Human evaluation
+   - Human evaluation that utilizes the conversational context to rate the translation quality on a direct assessment scale of [0-100].
+2) Automatic evaluation
+   - Overall translation quality via chrF, BLEU, COMET-22 and Contextual-Comet-QE.
+   - Accuracy performance on handling context-dependent discourse phenomena. 
+
 
 The human document-level evaluation will be performed only on the primary submission and will be used for the official rankings of the participating teams accounting for both directions.
-The TBD will be used as the secondary metric.
+The automatic will be used as the secondary metric.
 
 <br />
 
