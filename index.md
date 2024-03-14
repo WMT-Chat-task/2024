@@ -11,7 +11,7 @@ layout: home
 
 ### March 15th, 2024
 
-``❗`` Training data is available [here]().
+``❗`` Training data is available [here](https://github.com/WMT-Chat-task/chat-task-2024-data).
 
 ``❗`` Please also register to the chat-shared-task [google-group](https://groups.google.com/g/wmt-chat-task) in order to be able to receive immediate updates announcements and ask us questions! 
 
