@@ -86,7 +86,7 @@ Please note, that all the data released for the WMT24 Chat Translation task is u
    
 ## Datasets
 
-The Training sets of all the language pairs are available in the [github]() repository.
+The Training sets of all the language pairs are available in the [github](https://github.com/WMT-Chat-task/chat-task-2024-data) repository.
 The files contain the bilingual conversations by a customer and an agent in their original language.
 Here is an example of such a conversation:
 
