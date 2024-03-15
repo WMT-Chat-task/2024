@@ -15,7 +15,7 @@ layout: home
 
 ``❗`` Please also register to the chat-shared-task [google-group](https://groups.google.com/g/wmt-chat-task) in order to be able to receive immediate updates announcements and ask us questions! 
 
-``❗`` Devsets along with baselines scores on them will be available soon! 
+``❗`` Development sets along with baselines scores on them will be available soon! 
 
 <br />
 
@@ -133,7 +133,7 @@ Moreover, since the data is anonymised, we have the entities replaced by the fol
 
 ## Baseline Scores on DevSets
 
-Baseline scores on Dev data will be avaiable by May 2024.
+Baseline scores on Development sets will be available by May 2024.
 
 <br />
 
@@ -152,12 +152,12 @@ The Systems' performance will be evaluated along two domensions:
    - Human evaluation that utilizes the conversational context to rate the translation quality on a direct assessment scale of [0-100].
      
 2) Automatic evaluation
-   - Overall translation quality via [chrF](https://github.com/mjpost/sacrebleu?tab=readme-ov-file#chrf--chrf), [BLEU](https://github.com/mjpost/sacrebleu?tab=readme-ov-file#bleu), [COMET-22](https://github.com/Unbabel/COMET) and Contextual-Comet-QE.
+   - Overall translation quality via [chrF](https://github.com/mjpost/sacrebleu?tab=readme-ov-file#chrf--chrf), [BLEU](https://github.com/mjpost/sacrebleu?tab=readme-ov-file#bleu), [COMET-22](https://github.com/Unbabel/COMET) and [Contextual-Comet-QE](https://arxiv.org/abs/2403.08314).
    - Accuracy performance ([F1 scores](https://github.com/CoderPat/MuDA/tree/main)) of system's outputs compared to the reference for words tagged with context-dependent phenomena (lexical cohesion, formality, pronoun resolution and verb forms).
 
 
 The human document-level evaluation will be performed only on the primary submission and will be used for the official rankings of the participating teams accounting for both directions.
-The automatic will be used as the secondary metric.
+Automatic evaluation will be used as the secondary metric.
 
 <br />
 
