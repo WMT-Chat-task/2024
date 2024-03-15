@@ -162,7 +162,7 @@ The automatic will be used as the secondary metric.
 <br />
 
 ## Paper Describing Your MT Systems
-Participants are invited to submit a short paper (4 to 6 pages) to WMT describing their MT system. Information on how to submit is available [here](https://www.statmt.org/wmt22).<br />
+Participants are invited to submit a short paper (4 to 6 pages) to WMT describing their MT system. Information on how to submit is available [here](https://www2.statmt.org/wmt24/).<br />
 Please note that the shared task submission description papers are non-archival, and it is not mandatory to submit a paper if you do not want to.
 
 ## Organization:
