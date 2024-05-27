@@ -8,6 +8,10 @@ layout: home
 # Welcome to the WMT 2024 Chat Shared Task!
 
 ## Updates
+### May 27th, 2024
+``❗`` Validation data, baseline scores along with scripts to reproduce them are available [here](https://github.com/WMT-Chat-task/chat-task-2024-data)
+
+``❗`` Please make sure to register your team in the [registration form](https://forms.gle/zVFtGpt92uvC6XSS9)
 
 ### March 15th, 2024
 
@@ -133,7 +137,26 @@ Moreover, since the data is anonymised, we have the entities replaced by the fol
 
 ## Baseline Scores on DevSets
 
-Baseline scores on Development sets will be available by May 2024.
+Our baseline system uses [NLLB-3.3B](https://huggingface.co/facebook/nllb-200-3.3B) model to generate translations. The quality of translations using automatic metrics are provided below:
+
+From Engish -> XX
+
+|language pair	|chrF	| COMET | 
+|---	|---	|---	|
+|EN -> DE	| 66.24	| 86.76	|
+|EN -> FR	| 74.31	| 88.85 |
+|EN ->PT	| 60.68	| 87.38	|
+|EN -> KO	  | 30.47	| 84.59 |
+|EN -> NL	  |	60.37| 87.29	|
+
+From XX -> English
+|language pair	|chrF	| COMET | 
+|---	|---	|---	|
+|DE -> EN	| 65.92	| 85.88 | 
+|FR	-> EN | 72.53	| 85.44 |
+|PT -> EN	| 67.13	| 86.83 | 
+|KO -> EN	  |	54.47 |82.81 |
+|NL -> EN	  |	 66.90| 86.58 |  
 
 <br />
 
