@@ -64,7 +64,7 @@ table {
 | Paper submission deadline to WMT | 20th August 2024 |
 | WMT Notification of acceptance | 20th September 2024 |
 | WMT Camera-ready deadline | 3rd October 2024 |
-| Conference | 12-13 November, 2024 |
+| Conference | 15-16 November, 2024 |
 
 ## Goals
 
