@@ -59,11 +59,11 @@ table {
 | ----------- | :-----------: |
 | Training set ready to download | March 2024 |
 | Validation set ready to download | May 2024 |
-| Test set ready to download | June/July 2024 |
-| Submission deadline for Chat task | July 2024 |
-| Paper submission deadline to WMT | TBA around 12th August (follows EMNLP) |
-| WMT Notification of acceptance | TBA (follows EMNLP) |
-| WMT Camera-ready deadline | TBA around 23rd September (follows EMNLP) |
+| Test set ready to download | 18th July 2024 |
+| Submission deadline for Chat task | 26th July 2024 |
+| Paper submission deadline to WMT | 20th August 2024 |
+| WMT Notification of acceptance | 20th September 2024 |
+| WMT Camera-ready deadline | 3rd October 2024 |
 | Conference | 12-13 November, 2024 |
 
 ## Goals
