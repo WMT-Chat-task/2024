@@ -8,6 +8,9 @@ layout: home
 # Welcome to the WMT 2024 Chat Shared Task!
 
 ## Updates
+### July 18th, 2024
+``❗`` Test data and submission instructions are available [here](https://github.com/WMT-Chat-task/chat-task-2024-data).
+
 ### May 27th, 2024
 ``❗`` Validation data, baseline scores along with scripts to reproduce them are available [here](https://github.com/WMT-Chat-task/chat-task-2024-data)
 
@@ -169,7 +172,12 @@ From XX -> English
 Test Sets will be available by June/July 2024.
 
 ### Submission Format
-TBD
+- The translations submission deadline is the **26th of July**, End-of-day, anywhere on earth.
+- Submissions should be emailed to the address wmt.chat.task@gmail.com with the subject line: `WMT 2024 CHAT Shared Task Submission`. Submissions should be packed in a compressed file with the following naming convention: `submission_[team-name].tar.gz`. Packages should be organized by language pair (e.g. `./en_de/`).Each directory should include:
+1. One plaintext output file with one sentence per line for each system submitted, pre-formatted for scoring (detokenized, detruecased), for that language pair, named as `[system-id].txt`. The order of sentences should be the same as the original csv files provided for each language pair. You can submit at most 3 system outputs per language pair, one `primary` and up to two `contrastive`. 
+2. Note that each file will include translations for both `x->y` and `y->x` language directions. However, the final automatic evaluation scores will be reported per language direction.
+3. A readme file with the name of the team and the participants, a brief description of each system(s) submitted including details about training data and architecture used, including which system they prefer to be used for final evaluation by the organizers, and the contact persons' name and email.
+- We invite participants to submit a paper describing their system(s) via the conference submission page. The paper submission deadline for WMT is the **20th of August**.
 <br />
 
 ## Evaluation
