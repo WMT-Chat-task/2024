@@ -9,10 +9,12 @@ layout: home
 
 ## Updates
 ### September 2nd, 2024
-``❗`` Human evaluation results are available [here](https://github.com/WMT-Chat-task/chat-task-2024-results).
+``❗`` Human evaluation results are available [here](https://github.com/WMT-Chat-task/chat-task-2024-results/blob/main/results_human.xlsx).
 
 ### August 9th, 2024
 ``❗`` Automatic evaluation results are available [here](https://github.com/WMT-Chat-task/chat-task-2024-results).
+
+``❗`` Test data with gold references are now available [here](https://github.com/WMT-Chat-task/chat-task-2024-results/tree/main/test).
 
 ### July 18th, 2024
 ``❗`` Test data and submission instructions are available [here](https://github.com/WMT-Chat-task/chat-task-2024-data).
@@ -24,7 +26,7 @@ layout: home
 
 ### March 15th, 2024
 
-``❗`` Training data is available [here](https://github.com/WMT-Chat-task/chat-task-2024-data).
+``❗`` Training data is available [here](https://github.com/WMT-Chat-task/chat-task-2024-data/tree/main/train).
 
 ``❗`` Please also register to the chat-shared-task [google-group](https://groups.google.com/g/wmt-chat-task) in order to be able to receive immediate updates announcements and ask us questions! 
 
