@@ -8,6 +8,9 @@ layout: home
 # Welcome to the WMT 2024 Chat Shared Task!
 
 ## Updates
+### September 2nd, 2024
+``❗`` Human evaluation results are available [here](https://github.com/WMT-Chat-task/chat-task-2024-results).
+
 ### August 9th, 2024
 ``❗`` Automatic evaluation results are available [here](https://github.com/WMT-Chat-task/chat-task-2024-results).
 
