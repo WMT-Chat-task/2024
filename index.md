@@ -8,6 +8,9 @@ layout: home
 # Welcome to the WMT 2024 Chat Shared Task!
 
 ## Updates
+### November 16th, 2024
+``❗`` Findings paper is available [here](https://aclanthology.org/2024.wmt-1.59/).
+
 ### September 2nd, 2024
 ``❗`` Human evaluation results are available [here](https://github.com/WMT-Chat-task/chat-task-2024-results/blob/main/results_human.xlsx).
 
